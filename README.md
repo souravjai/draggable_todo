@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+# Draggable Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and lightweight Todo application built using **React** and **TypeScript**. This app includes a drag-and-drop functionality implemented without relying on any external drag-and-drop libraries.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Here’s a quick preview of the Draggable Todo App in action:
 
-## Expanding the ESLint configuration
+![Draggable Todo App Preview](./readme_asset/preview.gif)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- **Add Todos**: Easily create new tasks.
+- **Delete Todos**: Remove tasks from the list.
+- **Reorder Todos**: Drag and drop tasks to reorder them as needed.
+- **Lightweight Solution**: No external drag-and-drop libraries used, purely built with React and TypeScript.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Demo
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Check out the application in action: [Draggable Todo App](https://github.com/souravjai/draggable_todo)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Installation
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/souravjai/draggable_todo.git
+   cd draggable_todo
+   ```
