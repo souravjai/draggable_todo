@@ -17,7 +17,7 @@ Here’s a quick preview of the Draggable Todo App in action:
 
 ## Demo
 
-Check out the application in action: [Draggable Todo App](https://github.com/souravjai/draggable_todo)
+Check out the application in action: [Draggable Todo App](https://draggable-todo-hazel.vercel.app)
 
 ## Installation
 
