@@ -6,7 +6,7 @@ A simple and lightweight Todo application built using **React** and **TypeScript
 
 Here’s a quick preview of the Draggable Todo App in action:
 
-![Draggable Todo App Preview](./readme_asset/preview.gif)
+![Draggable Todo App Preview](readme_asset/Preview.gif)
 
 ## Features
 
